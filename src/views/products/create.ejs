@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/bootstrap.js"></script>
+  <title>Crear</title>
+</head>
+
+<body>
+  <%-include('../partials/header') %>
+  <h2 class="center">Formulario para la creacion de un producto</h2>
+  <div class="FormContainer">
+    <form>
+      <div class="formrow">
+        <div class="ProductName">
+          <label for="Name">Nombre del producto</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre del producto" required>
+        </div>
+        <div class="ProductBrand">
+          <label for="validationDefault02">Marca del producto</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="Marca del producto" required>
+        </div>
+        <div class="ProductPrice">
+          <label for="validationDefault03">Precio</label>
+          <input type="text" class="form-control" id="validationDefault03" placeholder="Precio" required>
+        </div> 
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Imagen</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+    <div class="ProductDescription"
+          <label for="validationDefault04">Descripción</label>
+        <textarea class="form-control" id="validationDefault04" placeholder="Descripción" required></textarea>
+    </div>
+     <br>
+     <div class="btnContainer">
+      <button class="btn btn-primary" id="imgBtn" type="submit">Agregar producto</button>
+      <button class="btn btn-primary" id="imgBtn" type="submit">Limpiar todo</button>
+      <a href="/" class="btn btn-primary" id="imgBtn" type="submit">Volver al inicio</a>
+    </div>
+    </form>
+    
+    <%- include("../partials/footer") %> 
+</body>
+
+</html>

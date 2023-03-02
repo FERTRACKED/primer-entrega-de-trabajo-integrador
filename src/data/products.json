@@ -1,0 +1,33 @@
+[
+ {
+    "id":1,
+    "name":"cafe grano ristretto cabrales",
+    "precio":2000,
+    "marca":"cabrales",
+    "descripcion":"Blend de granos arábigos tostados en un punto de tostación alto",
+    "imagenes":"/images/products/cabrales1.webp"
+ },
+{
+    "id":2,
+    "name":"Cafe instantaneo clasico",
+    "precio":1200,
+    "marca":"Nescafe",
+    "descripcion":"Una propuesta única, de sabor intenso y delicado, que hace realidad el paradigma del aroma a café.",
+    "imagenes":"/images/products/nescafe.webp"
+},
+{
+    "id":3,
+    "name":"Cafe Tostado Italiano",
+    "precio":18000,
+    "marca":"Luggiani Bianco",
+    "descripcion":"Luggiani es un blend de granos Arabicos cuidadosamente seleccionados, que se caracteriza por tener un aroma sutil, un amargor característico de su tostión, con un cuerpo equilibrado y un sabor bastante agradables a frutos secos y miel.",
+    "imagenes":"/images/products/bianco.webp"
+}
+
+
+
+
+
+
+
+]
