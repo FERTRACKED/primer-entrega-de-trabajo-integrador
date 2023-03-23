@@ -1,136 +1,136 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-body{
-  background-color: aliceblue;
-  font-family:fantasy;
-  color:dimgrey;
-  
-}
-
-header{
-  
-  height: 250px;
-  margin: 0px;
-  text-align: center;
-  background: url("/images/products/fondo.avif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-.clearfix{
-  clear: both;
-}
-.content{
-  float: left;
-  width: 80%;
-  min-height: 500px;
-  background-image: url("/images/products/cafe2.jpg");
-  border: 2px solid black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  justify-content: end;
- 
-  
-}
-aside{
-  float: left;
-  width: 20%;
-  background: burlywood;
-  min-height: 500px;
-  background-size: cover;
-  background-image: url(https://images.unsplash.com/photo-1675453988015-304184957af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-  
-}
-h1{
-  line-height: 100px;
-  font-size: 60px;
-}
-section{
-  min-width: 1000px;
-  margin: auto;
-  padding: 30px 0;
-}
-
-.conten p {
-  font-size: 35px;
-}
-.conten a {
-  color: white;
-  text-decoration: none;
-  background:burlywood ;
-  padding: 4px 20px;
-  border-radius: 30px;
-  font-size: 20px;
-  margin: 10px;
-}
-footer{
-  color: black;
-}
-.card-text{
-  color:black
-}
-.card-title{
-  color: black;
-}
-.center{
-  text-align: center;
-}
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-.card-container{
-  display: flex;
-  height: auto ;
-  width: 400px;
-  background-color: white;
-  border-radius: 2px;
-  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
-  
-}
-.header{
-  border-right: 1px solid #ddd;
-}
-.descripcion{
-  background: #fbfbfb;
-  position: relative;
-}
-.header , .descripcion{
-  padding: 20px;
-  text-align: center;
-}
-.header a {
-  position: relative;
-  display: block;
-}
-.header img{
-  border-radius: 26%;
-  box-shadow: 0 0 0 2px;
-  margin: 20px 30px;
-  width: 150px;
-  height: 150px;
-}
-
-.header h2{
-  color: #f0522a;
-}
-.header h4{
-  margin-bottom: 20px;
-}
-.descripcion p{
-  margin: 20px 30px;
-}
-@media(max-width:640px){
-  .card-container{
-    display: block;
-    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
   }
-}
+  body{
+    background-color: aliceblue;
+    font-family:fantasy;
+    color:dimgrey;
+    
+  }
+  
+  header{
+    
+    height: 250px;
+    margin: 0px;
+    text-align: center;
+    background: url("/images/products/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .clearfix{
+    clear: both;
+  }
+  .content{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    background-image: url("/images/products/cafe2.jpg");
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: end;
+   
+    
+  }
+  aside{
+    float: left;
+    width: 20%;
+    background: burlywood;
+    min-height: 500px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1675453988015-304184957af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    
+  }
+  h1{
+    line-height: 100px;
+    font-size: 60px;
+  }
+  section{
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+  }
+  
+  .conten p {
+    font-size: 35px;
+  }
+  .conten a {
+    color: white;
+    text-decoration: none;
+    background:burlywood ;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  footer{
+    color: black;
+  }
+  .card-text{
+    color:black
+  }
+  .card-title{
+    color: black;
+  }
+  .center{
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .card-container{
+    display: flex;
+    height: auto ;
+    width: 400px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+    
+  }
+  .header{
+    border-right: 1px solid #ddd;
+  }
+  .descripcion{
+    background: #fbfbfb;
+    position: relative;
+  }
+  .header , .descripcion{
+    padding: 20px;
+    text-align: center;
+  }
+  .header a {
+    position: relative;
+    display: block;
+  }
+  .header img{
+    border-radius: 26%;
+    box-shadow: 0 0 0 2px;
+    margin: 20px 30px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .header h2{
+    color: #f0522a;
+  }
+  .header h4{
+    margin-bottom: 20px;
+  }
+  .descripcion p{
+    margin: 20px 30px;
+  }
+  @media(max-width:640px){
+    .card-container{
+      display: block;
+      width: 450px;
+    }
+  }
